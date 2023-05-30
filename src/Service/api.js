@@ -1,8 +1,9 @@
 import axios from "axios";
 
 // const usersUrl = 'http://localhost:3003/users';
-const dataUrl =
-  "http://localhost:8080" || "https://lemon-duckling-slip.cyclic.app";
+// const dataUrl =
+//   "http://localhost:8080" || "https://lemon-duckling-slip.cyclic.app";
+const dataUrl = "https://lemon-duckling-slip.cyclic.app";
 
 export const getData = async (id) => {
   return await axios.get(`${dataUrl}`);
